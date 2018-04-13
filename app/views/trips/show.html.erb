@@ -1,0 +1,10 @@
+<% @trip.trails.each do |trail| %>
+  <%= trail.name %>
+  <%= trail.address %>
+  <%= trail.length %>
+<% end %>
+
+<%= @trip.total_length %>
+<%= @trip.average_length %>
+<p>The longest hike is <%= @trip.longest_hike %> miles</p>
+<p>The shorest hike is <%= @trip.shortest_hike %> miles</p>

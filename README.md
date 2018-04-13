@@ -37,7 +37,7 @@ The intention of this application if for users to coordinate what trails they wi
 ```
   As a visitor,
   when I visit a trip show,
-  I a list of names for each hike 
+  I a list of names for each hike
 ```
 
 ```
